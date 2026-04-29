@@ -355,8 +355,8 @@
 
     <h3>Las 5 frases</h3>
     <ol style="list-style: decimal; padding-left: 24px;">
-      <li style="padding: 10px 0; padding-left: 8px;"><strong>Google Ads tiene techo en suplementación con ROAS 2.</strong> El ROAS es decreciente: gastando 3-5k€/mes mantienes ROAS 2-2,5; pasados 12-15k€/mes baja a 1,5-1,8. Por encima de eso no es rentable a este ROAS objetivo.</li>
-      <li style="padding: 10px 0; padding-left: 8px;"><strong>El techo realista de Google Ads es 25-35k€/mes de revenue.</strong> Para llegar más allá hay que apoyarse en el otro canal del scope: SEO, que es donde está el compounding.</li>
+      <li style="padding: 10px 0; padding-left: 8px;"><strong>Google Ads tiene techo en suplementación con ROAS 2.</strong> El ROAS es decreciente desde el inicio: a budget bajo (&lt;1.500€/mes) ROAS 2-3× con cherry-picking; al escalar bids suben, KW marginal cae de calidad y el ROAS baja. Por encima de 18-20k€/mes no es rentable a este ROAS objetivo.</li>
+      <li style="padding: 10px 0; padding-left: 8px;"><strong>El techo realista de Google Ads es 15-25k€/mes de revenue.</strong> Para llegar más allá hay que apoyarse en el otro canal del scope: SEO, que es donde está el compounding.</li>
       <li style="padding: 10px 0; padding-left: 8px;"><strong>El cluster "vs citrato/malato/treonato" tiene 220k vol/mes y nadie lo lidera en ES.</strong> Esta es la oportunidad #1 del plan SEO. KD medio 8,9 — KD ridículo para un cluster de intent caliente.</li>
       <li style="padding: 10px 0; padding-left: 8px;"><strong>La estructura de cuenta Google Ads está lista para importar:</strong> 6 campañas, 19 Ad Groups, 340 KW, 361 RSA validadas dentro de límite chars, 104 negative keywords, sitelinks/callouts/snippets.</li>
       <li style="padding: 10px 0; padding-left: 8px;"><strong>Antes de meter el primer euro en Ads, tracking sólido.</strong> GA4 + Google Ads conversions con Enhanced Conversions + Consent Mode v2 (Built-in + CMv2 sin Additional Consent) + Merchant Center con feed enriquecido.</li>
@@ -460,7 +460,8 @@
     <h2>Google Ads<br>con <em>techo ROAS 2</em>.</h2>
     <p class="lead">El CPC de SEMrush es promedio del mercado, no lo que pagas en subasta cuando bideas para captar share. Y el ROAS es decreciente: cada euro adicional compra impresiones progresivamente menos cualificadas.</p>
 
-    <h3>Curva ROAS realista en suplementación premium ES</h3>
+    <h3>Curva ROAS realista en suplementación premium ES (mercado 2026)</h3>
+    <p>El ROAS es decreciente desde el inicio: a budget bajo se hace cherry-picking del mejor inventario (KW brand + bisgli core en exact match, bids forzados por debajo del CPC promedio del mercado); al escalar hay que abrir match types, Smart Bidding sube bids para captar share, entras en pujas más caras de competidor hijack y KW informational con CR bajo. El CPC marginal del último click es 3-5× el del primero.</p>
     <table class="data-table">
       <thead>
         <tr>
@@ -471,37 +472,43 @@
       </thead>
       <tbody>
         <tr>
-          <td><span class="mono">1-2k€</span></td>
-          <td class="num">1,2 — 1,8×</td>
-          <td>Aprendizaje primer mes, datos insuficientes</td>
+          <td><span class="mono">&lt;1.500€</span></td>
+          <td class="num accent">2,0 — 3,0×</td>
+          <td>Cherry-picking · KW brand + bisgli core exact, bids bajos</td>
         </tr>
         <tr>
-          <td><span class="mono">3-5k€</span></td>
-          <td class="num accent">2,0 — 2,5×</td>
-          <td><span class="check">Sweet spot</span> · KW brand + bisgli core</td>
+          <td><span class="mono">2-4k€</span></td>
+          <td class="num">1,8 — 2,5×</td>
+          <td>Se abre match types, entran KW comparativa</td>
         </tr>
         <tr>
-          <td><span class="mono">8-12k€</span></td>
-          <td class="num">1,8 — 2,2×</td>
-          <td>El inventario barato empieza a saturar</td>
+          <td><span class="mono">5-10k€</span></td>
+          <td class="num accent">1,7 — 2,2×</td>
+          <td><span class="check">Sweet spot operativo</span> · max budget con ROAS≥2</td>
         </tr>
         <tr>
-          <td><span class="mono">15-25k€</span></td>
+          <td><span class="mono">12-18k€</span></td>
           <td class="num">1,5 — 2,0×</td>
-          <td>Solo viable con LTV potente</td>
+          <td>Zona de fricción para mantener ROAS 2</td>
         </tr>
         <tr>
-          <td><span class="mono">&gt;25k€</span></td>
-          <td class="num warn">&lt;1,8×</td>
+          <td><span class="mono">&gt;20k€</span></td>
+          <td class="num warn">&lt;1,7×</td>
           <td><span class="cross">No rentable</span> a ROAS 2 estricto</td>
         </tr>
       </tbody>
     </table>
 
+    <div class="callout">
+      <span class="callout-label">Matiz importante · cuenta nueva</span>
+      <h4>Mes 1-2 puede haber ROAS bajo aunque el budget sea pequeño.</h4>
+      <p>No por la curva de subasta sino porque Smart Bidding necesita ~30 conversiones en 30 días para que tCPA / tROAS aprendan. Es ruido transitorio del algoritmo, no la dinámica estructural. Hay que reportarlo al cliente como tal y no extrapolarlo: una vez la cuenta tiene historial, el ROAS a budget bajo sube al rango 2-3× del cherry-picking.</p>
+    </div>
+
     <div class="callout alert">
       <span class="callout-label">Implicación operativa</span>
-      <h4>Techo realista de revenue solo-Ads: 25-35k€/mes.</h4>
-      <p>Gastando entre 12 y 18k€/mes. Por encima de ese umbral cada euro adicional es retorno marginal decreciente bajo ROAS 2. Para volúmenes mayores, el plan se apoya en SEO (sección 5) y en lo que el cliente ya tiene operando fuera del scope.</p>
+      <h4>Techo realista de revenue solo-Ads: 15-25k€/mes.</h4>
+      <p>Gastando entre 8 y 15k€/mes en el sweet spot operativo. Por encima de 18-20k€/mes cada euro adicional es retorno marginal decreciente bajo ROAS 2. Para volúmenes mayores, el plan se apoya en SEO (sección 5) y en lo que el cliente ya tiene operando fuera del scope.</p>
     </div>
 
     <h3>Asunciones honestas del modelo</h3>
@@ -768,9 +775,9 @@
         </tr>
       </thead>
       <tbody>
-        <tr><td>Spend Google Ads/mes</td><td class="num">2-3k€</td><td class="num">5-7k€</td><td class="num">10-15k€</td></tr>
-        <tr><td>ROAS Google Ads</td><td class="num">1,8</td><td class="num">2,0</td><td class="num">2,0</td></tr>
-        <tr><td>Revenue Google Ads/mes</td><td class="num">5k€</td><td class="num">12k€</td><td class="num">25-30k€</td></tr>
+        <tr><td>Spend Google Ads/mes</td><td class="num">1-1,5k€</td><td class="num">3-5k€</td><td class="num">8-12k€</td></tr>
+        <tr><td>ROAS Google Ads</td><td class="num">2,0 — 2,5</td><td class="num">2,0 — 2,3</td><td class="num">1,8 — 2,0</td></tr>
+        <tr><td>Revenue Google Ads/mes</td><td class="num">2-3k€</td><td class="num">7-10k€</td><td class="num">15-22k€</td></tr>
         <tr><td>CR Search → purchase</td><td class="num">2,5%</td><td class="num">3,0%</td><td class="num">3,5%</td></tr>
         <tr><td>Quality Score medio</td><td class="num">5+</td><td class="num">7+</td><td class="num">8+</td></tr>
         <tr><td>Tráfico SEO/mes (sesiones)</td><td class="num">500</td><td class="num">5.000</td><td class="num">25.000</td></tr>
