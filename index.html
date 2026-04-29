@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Celsanatur · Plan estratégico 0 → 100k€/mes</title>
+<title>Celsanatur · SEO + Google Ads · Plan estratégico</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=JetBrains+Mono:wght@400;500;600&family=Inter+Tight:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -214,40 +214,28 @@
     margin: 0 0 16px !important;
   }
 
-  .timeline { margin: 32px 0; border-left: 2px solid var(--ink); padding-left: 0; }
-  .timeline-item { padding: 0 0 32px 32px; position: relative; }
-  .timeline-item::before {
-    content: ""; width: 11px; height: 11px;
-    background: var(--accent); border: 2px solid var(--ink);
-    border-radius: 50%; position: absolute;
-    left: -7px; top: 6px;
+  .ag-card {
+    border: 1px solid var(--line-soft); padding: 24px;
+    margin: 16px 0; background: var(--paper);
   }
-  .timeline-item h5 {
-    font-family: 'Fraunces', serif; font-size: 22px;
-    font-weight: 500; margin-bottom: 4px;
-  }
-  .timeline-item .meta {
-    font-family: 'JetBrains Mono', monospace; font-size: 11px;
-    color: var(--ink-faint); text-transform: uppercase;
-    letter-spacing: 1.5px; margin-bottom: 12px;
-  }
-
-  .phase-card {
-    border: 1px solid var(--line); padding: 32px;
-    margin: 24px 0; background: var(--paper);
-  }
-  .phase-card .phase-num {
-    font-family: 'JetBrains Mono', monospace; font-size: 11px;
-    color: var(--accent); letter-spacing: 2px;
-    margin-bottom: 8px; display: block;
-  }
-  .phase-card h3 {
-    margin-top: 0 !important; font-size: 28px !important;
-  }
-  .phase-card .phase-target {
+  .ag-card .ag-name {
     font-family: 'JetBrains Mono', monospace; font-size: 13px;
-    color: var(--ink-soft); margin-bottom: 24px;
-    padding-bottom: 16px; border-bottom: 1px dashed var(--line-soft);
+    font-weight: 600; margin-bottom: 4px;
+    text-transform: uppercase; letter-spacing: 1px;
+    color: var(--accent);
+  }
+  .ag-card .ag-meta {
+    font-family: 'JetBrains Mono', monospace; font-size: 11px;
+    color: var(--ink-faint); margin-bottom: 12px;
+    text-transform: uppercase; letter-spacing: 1px;
+  }
+  .ag-card .ag-desc {
+    font-size: 14px; color: var(--ink); margin-bottom: 12px;
+  }
+  .ag-card .ag-kw-sample {
+    background: var(--accent-soft); padding: 10px 14px;
+    margin: 6px 0; border-left: 3px solid var(--accent);
+    font-family: 'JetBrains Mono', monospace; font-size: 12px;
   }
 
   footer {
@@ -295,11 +283,11 @@
 <header class="hero">
   <div class="container">
     <div class="hero-meta">
-      <span class="left">● Confidencial · Plan estratégico</span>
-      <span>Abril 2026 · v1.0</span>
+      <span class="left">● Confidencial · SEO + Google Ads</span>
+      <span>Abril 2026 · v2</span>
     </div>
-    <h1>Celsanatur.<br>De 15k a 100k€<br>al mes, <em>en serio</em>.</h1>
-    <p class="hero-subtitle">El plan honesto: ROAS 2 es break-even, los Ads no escalan, los 100k vienen del LTV. 18-24 meses, 4 fases, una tesis: construir la máquina de retención antes de pisar adquisición.</p>
+    <h1>Celsanatur.<br>Plan SEO<br>y Google Ads, <em>realista</em>.</h1>
+    <p class="hero-subtitle">12.167 keywords del mercado magnesio España analizadas. Estructura de cuenta lista, plan de contenidos definido y un techo ROAS 2 que condiciona cómo y cuánto se puede escalar. Sin humo.</p>
     <div class="hero-info">
       <div class="hero-info-item">
         <span class="label">Cliente</span>
@@ -314,8 +302,8 @@
         <span class="value">Magnesio bisglicinato</span>
       </div>
       <div class="hero-info-item">
-        <span class="label">Datos analizados</span>
-        <span class="value">12.167 keywords</span>
+        <span class="label">Scope</span>
+        <span class="value">SEO + Google Ads</span>
       </div>
     </div>
   </div>
@@ -326,15 +314,15 @@
   <div class="container">
     <p class="index-title">Índice</p>
     <ol>
-      <li><a href="#tldr">TL;DR · 7 frases del informe</a><span class="pages">5 min</span></li>
-      <li><a href="#tam">Universo de búsqueda · TAM real</a><span class="pages">6 min</span></li>
-      <li><a href="#diagnostico">Diagnóstico de Celsanatur</a><span class="pages">8 min</span></li>
-      <li><a href="#tesis">La tesis económica honesta</a><span class="pages">10 min</span></li>
-      <li><a href="#fases">Plan en 4 fases</a><span class="pages">15 min</span></li>
-      <li><a href="#kpis">KPIs por fase · cuándo escalar y cuándo frenar</a><span class="pages">5 min</span></li>
-      <li><a href="#kw-priority">Las KW que importan · top picks</a><span class="pages">8 min</span></li>
-      <li><a href="#riesgos">Lo que puede salir mal</a><span class="pages">5 min</span></li>
-      <li><a href="#proximos">Próximos pasos esta semana</a><span class="pages">4 min</span></li>
+      <li><a href="#tldr">TL;DR · 5 frases del informe</a><span class="pages">3 min</span></li>
+      <li><a href="#tam">Universo de búsqueda · TAM</a><span class="pages">5 min</span></li>
+      <li><a href="#tesis">Cómo funciona Google Ads con techo ROAS 2</a><span class="pages">8 min</span></li>
+      <li><a href="#cuenta">Estructura de cuenta Google Ads propuesta</a><span class="pages">10 min</span></li>
+      <li><a href="#seo">Plan SEO · pillar y clusters</a><span class="pages">10 min</span></li>
+      <li><a href="#kw">Las KW que importan · top picks</a><span class="pages">6 min</span></li>
+      <li><a href="#kpis">KPIs y validación</a><span class="pages">3 min</span></li>
+      <li><a href="#riesgos">Riesgos materiales</a><span class="pages">3 min</span></li>
+      <li><a href="#proximos">Próximos pasos</a><span class="pages">3 min</span></li>
     </ol>
   </div>
 </section>
@@ -344,13 +332,7 @@
   <div class="container">
     <span class="section-num">01 — Resumen</span>
     <h2>TL;DR <em>ejecutivo</em></h2>
-    <p class="lead">Si solo lees una sección, esta. Siete frases que resumen el informe entero.</p>
-
-    <div class="callout alert">
-      <span class="callout-label">⚠ Hallazgo principal</span>
-      <h4>El motor de crecimiento no son los Ads. Es el LTV.</h4>
-      <p>Con techo ROAS 2, un solo SKU de 35€ y mercado de suplementación competitivo en España, escalar Google Ads a niveles que generen 100k€/mes es matemáticamente inviable. El revenue de verdad sale de la base de clientes recurrente alimentada por email/SMS, suscripción y SEO compounding. Ads es solo el grifo de adquisición del primer pedido.</p>
-    </div>
+    <p class="lead">Si solo lees una sección, esta. Cinco frases que resumen el plan SEO + Google Ads.</p>
 
     <div class="stats-grid">
       <div class="stat">
@@ -362,24 +344,22 @@
         <div class="stat-label">KW Ads-viables con ROAS≥2</div>
       </div>
       <div class="stat">
-        <div class="stat-num">3.495</div>
-        <div class="stat-label">reseñas verificadas en bisglicinato</div>
+        <div class="stat-num">0,12<small>€</small></div>
+        <div class="stat-label">CPC medio mercado</div>
       </div>
       <div class="stat">
-        <div class="stat-num warn">22<small>%</small></div>
-        <div class="stat-label">recurrencia actual (sin email)</div>
+        <div class="stat-num">15,1</div>
+        <div class="stat-label">KD medio (fácil)</div>
       </div>
     </div>
 
-    <h3>Las 7 frases del informe</h3>
+    <h3>Las 5 frases</h3>
     <ol style="list-style: decimal; padding-left: 24px;">
-      <li style="padding: 10px 0; padding-left: 8px;"><strong>El techo realista de revenue solo-Ads es 25-35k€/mes.</strong> Con ROAS 2 estricto, gastando entre 12-18k€/mes en Google+Meta. Más allá no es rentable.</li>
-      <li style="padding: 10px 0; padding-left: 8px;"><strong>Los 100k€/mes salen del mix multicanal en mes 18-24.</strong> Ads + Email/SMS + Suscripción + SEO + repeat orgánico. Ningún canal único llega.</li>
-      <li style="padding: 10px 0; padding-left: 8px;"><strong>La palanca #1 que falta es Klaviyo + lifecycle.</strong> Sin email automation, pierdes el 20-25% del revenue blended que ya estás dejando sobre la mesa.</li>
-      <li style="padding: 10px 0; padding-left: 8px;"><strong>3.495 reseñas en bisglicinato es un asset brutal.</strong> Pocos competidores en ES tienen este social proof. La nueva PDP debe explotarlo above-the-fold y con AggregateRating schema.</li>
-      <li style="padding: 10px 0; padding-left: 8px;"><strong>El cluster "vs citrato/malato/treonato" tiene 220k vol/mes y nadie en ES lo lidera.</strong> Una landing comparativa bien hecha capta tráfico high-intent decidiendo qué tipo comprar.</li>
-      <li style="padding: 10px 0; padding-left: 8px;"><strong>El cluster "colágeno con magnesio" tiene 70k vol/mes</strong> y es territorio Ana Maria Lajusticia. Lanzar SKU Bisgli+Colágeno en mes 10-12 abre un canal de ~15k€/mes adicional.</li>
-      <li style="padding: 10px 0; padding-left: 8px;"><strong>Antes de escalar Ads: bundle 3 botes + suscripción + email.</strong> Sin esos 3 vectores activos, cada euro adicional en Ads tiene retorno marginal decreciente.</li>
+      <li style="padding: 10px 0; padding-left: 8px;"><strong>Google Ads tiene techo en suplementación con ROAS 2.</strong> El ROAS es decreciente: gastando 3-5k€/mes mantienes ROAS 2-2,5; pasados 12-15k€/mes baja a 1,5-1,8. Por encima de eso no es rentable a este ROAS objetivo.</li>
+      <li style="padding: 10px 0; padding-left: 8px;"><strong>El techo realista de Google Ads es 25-35k€/mes de revenue.</strong> Para llegar más allá hay que apoyarse en el otro canal del scope: SEO, que es donde está el compounding.</li>
+      <li style="padding: 10px 0; padding-left: 8px;"><strong>El cluster "vs citrato/malato/treonato" tiene 220k vol/mes y nadie lo lidera en ES.</strong> Esta es la oportunidad #1 del plan SEO. KD medio 8,9 — KD ridículo para un cluster de intent caliente.</li>
+      <li style="padding: 10px 0; padding-left: 8px;"><strong>La estructura de cuenta Google Ads está lista para importar:</strong> 6 campañas, 19 Ad Groups, 340 KW, 361 RSA validadas dentro de límite chars, 104 negative keywords, sitelinks/callouts/snippets.</li>
+      <li style="padding: 10px 0; padding-left: 8px;"><strong>Antes de meter el primer euro en Ads, tracking sólido.</strong> GA4 + Google Ads conversions con Enhanced Conversions + Consent Mode v2 (Built-in + CMv2 sin Additional Consent) + Merchant Center con feed enriquecido.</li>
     </ol>
   </div>
 </section>
@@ -389,35 +369,16 @@
   <div class="container">
     <span class="section-num">02 — Mercado</span>
     <h2>Universo de búsqueda<br><em>analizado.</em></h2>
-    <p class="lead">Procesadas 12.167 keywords entre el universo magnesio (10.003) y el universo bisglicinato puro (2.164). Mercado España, abril 2026.</p>
+    <p class="lead">12.167 keywords procesadas: 10.003 del universo magnesio completo y 2.164 del universo bisglicinato puro. Mercado España.</p>
 
-    <div class="stats-grid">
-      <div class="stat">
-        <div class="stat-num">12<small>k</small></div>
-        <div class="stat-label">keywords analizadas</div>
-      </div>
-      <div class="stat">
-        <div class="stat-num accent">1,4<small>M</small></div>
-        <div class="stat-label">vol/mes universo magnesio</div>
-      </div>
-      <div class="stat">
-        <div class="stat-num">0,12<small>€</small></div>
-        <div class="stat-label">CPC medio mercado</div>
-      </div>
-      <div class="stat">
-        <div class="stat-num">15,1</div>
-        <div class="stat-label">KD media (fácil)</div>
-      </div>
-    </div>
-
-    <h3>Los grandes clusters de búsqueda</h3>
+    <h3>Los 10 grandes clusters</h3>
     <table class="data-table">
       <thead>
         <tr>
           <th>Cluster</th>
           <th class="num">Vol/mes</th>
           <th class="num">CPC</th>
-          <th>Estrategia</th>
+          <th>Asignación principal</th>
         </tr>
       </thead>
       <tbody>
@@ -425,13 +386,13 @@
           <td class="kw">Magnesio genérico (sin tipo)</td>
           <td class="num">356.340</td>
           <td class="num">0,15€</td>
-          <td>SEO pillar + Ads broad limitado</td>
+          <td>SEO pillar</td>
         </tr>
         <tr>
-          <td class="kw">Comparativa tipos (citrato/malato/treonato/glicinato)</td>
+          <td class="kw">Comparativa tipos (citrato/malato/treonato)</td>
           <td class="num">220.040</td>
           <td class="num">0,13€</td>
-          <td><span class="check">★ Landing comparativa</span></td>
+          <td><span class="check">★ SEO landing comparativa + Ads</span></td>
         </tr>
         <tr>
           <td class="kw">Bisglicinato puro</td>
@@ -446,16 +407,16 @@
           <td>SEO pillar informational</td>
         </tr>
         <tr>
-          <td class="kw">Brand competidores (Lajusticia, Aquilea...)</td>
+          <td class="kw">Brand competidores</td>
           <td class="num">110.540</td>
           <td class="num">0,15€</td>
           <td>Ads competitor hijack</td>
         </tr>
         <tr>
-          <td class="kw">Colágeno + magnesio (territorio Lajusticia)</td>
+          <td class="kw">Colágeno + magnesio</td>
           <td class="num">70.520</td>
           <td class="num">0,15€</td>
-          <td><span class="check">★ Lanzar SKU bisgli+colágeno</span></td>
+          <td>Ads + SEO comparativo</td>
         </tr>
         <tr>
           <td class="kw">Mejor / opiniones</td>
@@ -467,13 +428,13 @@
           <td class="kw">Magnesio para dormir</td>
           <td class="num">22.480</td>
           <td class="num">0,15€</td>
-          <td>Cluster blog + Ad Group dedicado</td>
+          <td>SEO cluster + Ad Group</td>
         </tr>
         <tr>
           <td class="kw">Combinación con B6</td>
           <td class="num">21.080</td>
           <td class="num">0,21€</td>
-          <td>PDP variante B6 destacada</td>
+          <td>Ads + SEO PDP</td>
         </tr>
         <tr>
           <td class="kw">Transaccional puro (comprar/precio)</td>
@@ -486,99 +447,20 @@
 
     <div class="callout">
       <span class="callout-label">Lectura del mercado</span>
-      <h4>El inventario de búsqueda no es el problema.</h4>
-      <p>El mercado español de magnesio tiene volumen abundante y CPCs muy bajos comparado con el AOV (45,85€). El ratio CPC/AOV es de 380:1 en KW core — uno de los más favorables que se ven en suplementación premium. La oportunidad NO está limitada por inventario disponible.</p>
-      <p>El factor limitante es la <strong>capacidad operativa del DTC</strong> para retener y monetizar al cliente captado. Sin email lifecycle, sin suscripción y sin diversidad de SKU, cada cliente vale ~58€ lifetime. Con esos tres vectores activados, ese mismo cliente vale 90-110€.</p>
+      <h4>Inventario abundante, CPCs bajos, KD fáciles.</h4>
+      <p>El mercado español de magnesio tiene volumen y márgenes operativos favorables. El ratio CPC/AOV en el cluster bisgli core es ~250:1 — uno de los más favorables de la suplementación premium. KD medio del universo: 15,1 (fácil). El factor limitante para el plan no es el inventario de búsqueda; es <strong>la curva de subasta y la capacidad de la PDP para convertir tráfico</strong>.</p>
     </div>
   </div>
 </section>
 
-<!-- DIAGNÓSTICO -->
-<section class="section" id="diagnostico">
-  <div class="container">
-    <span class="section-num">03 — Diagnóstico</span>
-    <h2>Diagnóstico<br>de <em>Celsanatur</em>.</h2>
-    <p class="lead">Auditados producto, web, social proof y unit economics. Hay activos sólidos sobre los que construir y gaps claros que cerrar antes de escalar.</p>
-
-    <h3>Activos sobre los que construir</h3>
-
-    <div class="callout green">
-      <span class="callout-label">★ Asset principal</span>
-      <h4>3.495 reseñas verificadas en el bisglicinato.</h4>
-      <p>Uno de los social proof más fuertes del mercado español de suplementación. La mayoría de competidores directos están entre 200-1.500 reseñas. Esto es un moat real que la nueva PDP debe explotar above-the-fold y con schema.org AggregateRating para que las stars salgan en SERP de Google (lift de CTR del +35%).</p>
-    </div>
-
-    <ul>
-      <li><strong>Producto premium real:</strong> bisglicinato + taurina + B6, 160mg, 120 cápsulas (4 meses por 35€). Precio justo, fórmula completa.</li>
-      <li><strong>Fabricación en España</strong> + 60 días de devolución gratis. Diferenciadores legítimos.</li>
-      <li><strong>Plataforma Shopify</strong> que permite suscripción, bundles y apps de retención sin fricción técnica.</li>
-      <li><strong>Recurrencia 22%</strong> sin email lifecycle todavía. Es la base mínima sobre la que crecer — con Klaviyo bien montado puede ir al 35-40%.</li>
-      <li><strong>Stock OK</strong> y nueva web en preparación: ventana perfecta para incorporar must-haves antes del lanzamiento.</li>
-    </ul>
-
-    <h3>Gaps que cerrar antes de escalar</h3>
-
-    <div class="callout alert">
-      <span class="callout-label">GAP #1 · El más caro</span>
-      <h4>No hay email lifecycle (Klaviyo).</h4>
-      <p>Sin flujos de welcome, post-purchase, replenishment a 90/110/130 días, win-back y abandonment, estás dejando entre el 15% y el 25% del revenue blended sobre la mesa. Es la palanca con mejor ROI del proyecto. Implementación: 30 días.</p>
-    </div>
-
-    <div class="callout alert">
-      <span class="callout-label">GAP #2 · Recurrencia plafonada</span>
-      <h4>No hay suscripción nativa Shopify.</h4>
-      <p>Con producto que dura 4 meses y AOV 35€, una suscripción "cancelable cuando quieras + 10% off + envío gratis" puede llevar la adopción al 25-30% en mes 6. Eso son 8-12k€/mes de revenue predecible recurrente desde ese punto.</p>
-    </div>
-
-    <div class="callout alert">
-      <span class="callout-label">GAP #3 · AOV plafonado</span>
-      <h4>No hay bundle 3 botes.</h4>
-      <p>El bundle "1 año de tratamiento" a 89€ con 15% off (vs 105€ comprando uno a uno) sube el AOV de 45€ a 65-70€ con el mismo CR. Eso multiplica la eficiencia de cada euro de Ads por 1,4-1,5×.</p>
-    </div>
-
-    <div class="callout alert">
-      <span class="callout-label">GAP #4 · Tráfico high-intent perdido</span>
-      <h4>No hay landing comparativa "vs otros tipos".</h4>
-      <p>220.000 búsquedas/mes son personas que ya tienen claro que quieren magnesio pero están decidiendo qué tipo. Una landing comparativa "Bisglicinato vs Citrato vs Malato vs Treonato" capta ese tráfico high-intent y lo dirige al SKU correcto. Sin ella, ese cluster va al competidor.</p>
-    </div>
-
-    <div class="callout alert">
-      <span class="callout-label">GAP #5 · Mix de SKU pobre</span>
-      <h4>Solo 1 SKU de magnesio limita el LTV.</h4>
-      <p>El cliente que ya compró bisglicinato no tiene segundo producto natural en el catálogo. Lanzar Bisgli+Colágeno (territorio Lajusticia, 70k vol/mes), Bisgli en Polvo, Magnesio Complex y D3+K2 (que ya existe) cierra el LTV y captura clusters KW adyacentes.</p>
-    </div>
-
-    <div class="pull">
-      <p>3.495 reseñas, fabricación en España, recurrencia 22%, mercado de 1,4M búsquedas/mes y CPC 0,12€. <em>El producto está. Falta la máquina alrededor.</em></p>
-    </div>
-  </div>
-</section>
-
-<!-- TESIS -->
+<!-- TESIS ROAS -->
 <section class="section" id="tesis">
   <div class="container">
-    <span class="section-num">04 — Tesis</span>
-    <h2>La <em>tesis económica</em><br>honesta.</h2>
-    <p class="lead">Sin la curva de ROAS decreciente, cualquier plan de Ads es teoría. Estos son los números reales del mercado de suplementación premium en España.</p>
+    <span class="section-num">03 — Tesis Ads</span>
+    <h2>Google Ads<br>con <em>techo ROAS 2</em>.</h2>
+    <p class="lead">El CPC de SEMrush es promedio del mercado, no lo que pagas en subasta cuando bideas para captar share. Y el ROAS es decreciente: cada euro adicional compra impresiones progresivamente menos cualificadas.</p>
 
-    <h3>Unit economics confirmadas</h3>
-    <table class="data-table">
-      <thead>
-        <tr><th>Métrica</th><th class="num">Valor</th><th>Comentario</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>AOV actual</td><td class="num">45,85€</td><td>Ticket medio histórico</td></tr>
-        <tr><td>Recurrencia actual</td><td class="num">22%</td><td>Sin email lifecycle todavía</td></tr>
-        <tr><td>LTV teórico (geom)</td><td class="num">58,78€</td><td>AOV / (1 - recurrencia)</td></tr>
-        <tr><td>Techo ROAS</td><td class="num">2,0×</td><td>Bajo eso, no rentable</td></tr>
-        <tr><td>CPA tope inmediato</td><td class="num">22,93€</td><td>AOV / ROAS</td></tr>
-        <tr><td>CPA tope con LTV</td><td class="num">29,39€</td><td>LTV / ROAS</td></tr>
-      </tbody>
-    </table>
-
-    <h3>La curva de ROAS decreciente</h3>
-    <p>Cada euro adicional en Ads compra impresiones progresivamente menos cualificadas. El CPC SEMrush es promedio de mercado, no lo que pagas en subasta competitiva. En suplementación premium ES con cuenta Google Ads nueva la realidad operativa:</p>
-
+    <h3>Curva ROAS realista en suplementación premium ES</h3>
     <table class="data-table">
       <thead>
         <tr>
@@ -606,196 +488,234 @@
         <tr>
           <td><span class="mono">15-25k€</span></td>
           <td class="num">1,5 — 2,0×</td>
-          <td>Solo viable si AOV y LTV crecen</td>
+          <td>Solo viable con LTV potente</td>
         </tr>
         <tr>
           <td><span class="mono">&gt;25k€</span></td>
           <td class="num warn">&lt;1,8×</td>
-          <td><span class="cross">No rentable</span> a ROAS 2 sin LTV potente</td>
+          <td><span class="cross">No rentable</span> a ROAS 2 estricto</td>
         </tr>
       </tbody>
     </table>
 
     <div class="callout alert">
-      <span class="callout-label">Conclusión dura</span>
+      <span class="callout-label">Implicación operativa</span>
       <h4>Techo realista de revenue solo-Ads: 25-35k€/mes.</h4>
-      <p>Gastando entre 12 y 18k€/mes de Ads. Más allá de ese umbral cada euro adicional vuelve menos rentable y cae bajo ROAS 2. Los 65-75k€/mes restantes para llegar a 100k€/mes <strong>tienen que venir de canales no-Ads</strong>.</p>
+      <p>Gastando entre 12 y 18k€/mes. Por encima de ese umbral cada euro adicional es retorno marginal decreciente bajo ROAS 2. Para volúmenes mayores, el plan se apoya en SEO (sección 5) y en lo que el cliente ya tiene operando fuera del scope.</p>
     </div>
 
-    <h3>Modelo de cohortes mes a mes</h3>
-    <p>Asunciones honestas: CPA Ads sostenible 22-30€ (techo desde mes 3), CR Search 2-3% estabilizado, recurrencia mejorando 22% → 35% con Klaviyo+sub, frecuencia repeat ~1 pedido cada 4 meses, LTV 18m con sub al 30% activa: 80-100€.</p>
-
-    <table class="data-table">
-      <thead>
-        <tr>
-          <th>Mes</th>
-          <th class="num">Nuevos Ads</th>
-          <th class="num">Nuevos Meta</th>
-          <th class="num">Repeat</th>
-          <th class="num">Email/Sub</th>
-          <th class="num">Pedidos</th>
-          <th class="num">Revenue</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>1</td><td class="num">30</td><td class="num">200</td><td class="num">0</td><td class="num">0</td><td class="num">230</td><td class="num">10,5k€</td></tr>
-        <tr><td>3</td><td class="num">80</td><td class="num">250</td><td class="num">40</td><td class="num">20</td><td class="num">390</td><td class="num">17,9k€</td></tr>
-        <tr><td>6</td><td class="num">150</td><td class="num">280</td><td class="num">130</td><td class="num">80</td><td class="num">640</td><td class="num">29,3k€</td></tr>
-        <tr><td>9</td><td class="num">220</td><td class="num">300</td><td class="num">280</td><td class="num">200</td><td class="num">1.000</td><td class="num">45,8k€</td></tr>
-        <tr><td>12</td><td class="num">280</td><td class="num">320</td><td class="num">480</td><td class="num">380</td><td class="num">1.460</td><td class="num">66,9k€</td></tr>
-        <tr style="background: var(--accent-soft);"><td><strong>18</strong></td><td class="num">350</td><td class="num">350</td><td class="num">850</td><td class="num">700</td><td class="num"><strong>2.250</strong></td><td class="num"><strong>103k€</strong></td></tr>
-        <tr><td>24</td><td class="num">380</td><td class="num">380</td><td class="num">1.100</td><td class="num">950</td><td class="num">2.810</td><td class="num">128k€</td></tr>
-      </tbody>
-    </table>
+    <h3>Asunciones honestas del modelo</h3>
+    <ul>
+      <li><strong>CPC real de subasta:</strong> 2-4× CPC SEMrush en KW comerciales calientes, 1-2× en KW informational largas</li>
+      <li><strong>CR Search por intent:</strong> 3-5% en transaccional puro, 2-3% en comparativo, 1-1,5% en informational cold</li>
+      <li><strong>Costes operativos descontados del revenue:</strong> 8-12% (refunds 60d, payment fees, IVA gestión, fulfillment)</li>
+      <li><strong>Curva de aprendizaje:</strong> primeros 30-60 días tCPA inestable, ROAS 1-1,5 mientras Google ajusta</li>
+    </ul>
 
     <div class="pull">
-      <p>El crecimiento sano de un DTC viene del LTV. <em>Ads es el coste de adquisición</em>, no el motor de crecimiento.</p>
+      <p>Google Ads en suplementación a ROAS 2 es <em>un grifo controlado</em>, no una manguera abierta.</p>
     </div>
   </div>
 </section>
 
-<!-- FASES -->
-<section class="section" id="fases">
+<!-- CUENTA GOOGLE ADS -->
+<section class="section" id="cuenta">
   <div class="container">
-    <span class="section-num">05 — Plan</span>
-    <h2>Plan en <em>4 fases.</em></h2>
-    <p class="lead">Construir antes de escalar. Cada fase tiene un único foco operativo y una métrica de validación que autoriza el salto a la siguiente.</p>
+    <span class="section-num">04 — Estructura</span>
+    <h2>Cuenta Google Ads<br><em>propuesta</em>.</h2>
+    <p class="lead">6 campañas Search + Performance Max. 19 Ad Groups. 340 KW seleccionadas con bid sugerido por intent y volumen. RSAs y extensiones listas para importar a Editor.</p>
 
-    <div class="phase-card">
-      <span class="phase-num">FASE 1 — Foundations</span>
-      <h3>Construir la máquina de retención.</h3>
-      <p class="phase-target">Mes 1-3 · Target revenue: 15-20k€/mes</p>
-      <h4>Acciones críticas</h4>
-      <ul>
-        <li><strong>Klaviyo instalado</strong> con 6 flujos: Welcome (3 emails), Post-purchase (2 + reseña 7d), Replenishment (90d, 110d, 130d), Win-back (180d), Abandoned cart (3 emails 24h), Browse abandonment.</li>
-        <li><strong>Suscripción Shopify</strong> activada con –10% + envío gratis. CTA visible junto al precio.</li>
-        <li><strong>Bundle 3 botes</strong> publicado. Target subir AOV de 45€ a 60-65€.</li>
-        <li><strong>Nueva PDP lanzada</strong> con must-haves del brief: AggregateRating schema visible, comparativa vs otros tipos, FAQ con FAQPage schema, vídeo testimonio, sticky CTA mobile.</li>
-        <li><strong>Tracking auditado</strong>: GA4 + Google Ads conversions con Enhanced Conversions + Meta CAPI server-side + Consent Mode v2 (Built-in + CMv2 sin Additional Consent).</li>
-        <li><strong>Google Ads arranque mínimo</strong>: 3 Ad Groups (Brand defense + Bisgli core + Transaccional). Budget 1.500€/mes, tCPA 18€. NO escalar hasta validar tracking y ROAS.</li>
-      </ul>
+    <h3>Las 6 campañas</h3>
+
+    <div class="ag-card">
+      <span class="ag-name">CAMPAÑA 01 — BRAND DEFENSE</span>
+      <span class="ag-meta">1 Ad Group · 7 KW · ~30 vol/mes</span>
+      <p class="ag-desc">Defensa de marca. Bid bajo por defecto, sube si aparecen competidores en SERP de "celsanatur".</p>
+      <div class="ag-kw-sample">[celsanatur] · [celsanatur magnesio] · [celsanatur opiniones]</div>
     </div>
 
-    <div class="phase-card">
-      <span class="phase-num">FASE 2 — Acumulación de base</span>
-      <h3>Crecer la lista, no el budget.</h3>
-      <p class="phase-target">Mes 4-9 · Target revenue: 25-45k€/mes</p>
-      <h4>Acciones críticas</h4>
-      <ul>
-        <li><strong>SEO publication:</strong> pillar bisglicinato + 5 clusters de blog (1 cada 2 semanas). Briefs ya redactados en briefs_seo.md.</li>
-        <li><strong>Google Ads</strong> ampliar a Competitor Hijack + Comparativa Tipos. Budget 3-5k€/mes max. NO ir más allá.</li>
-        <li><strong>Meta Ads</strong> mantener ritmo actual — es el activo, no destruirlo.</li>
-        <li><strong>SMS automation</strong> activado en abandoned cart y replenishment (Klaviyo SMS o WhatsApp Business API).</li>
-        <li><strong>Lifecycle iteración</strong>: A/B subject lines, segmentación por cluster (sub vs one-time, frecuencia alta vs baja), winback con descuento progresivo.</li>
-        <li><strong>Reactivación masiva</strong> a la base existente Meta vía email post-Klaviyo install.</li>
-      </ul>
+    <div class="ag-card">
+      <span class="ag-name">CAMPAÑA 02 — BISGLI CORE</span>
+      <span class="ag-meta">6 Ad Groups · 125 KW · ~120k vol/mes · tCPA 12-18€</span>
+      <p class="ag-desc">El núcleo de la cuenta. KW puras del bisglicinato segmentadas por sub-intent: genérico, transaccional, opiniones, para qué sirve, cómo tomar/dosis, con B6.</p>
+      <div class="ag-kw-sample">[bisglicinato de magnesio] · [magnesio bisglicinato] · "comprar bisglicinato" · "bisglicinato dosis"</div>
     </div>
 
-    <div class="phase-card">
-      <span class="phase-num">FASE 3 — Compounding</span>
-      <h3>Lanzar SKUs y dejar trabajar al SEO.</h3>
-      <p class="phase-target">Mes 10-18 · Target revenue: 50-75k€/mes</p>
-      <h4>Acciones críticas</h4>
-      <ul>
-        <li><strong>SEO traccionando</strong> 5-15k€/mes orgánicos desde mes 6 y compound creciente.</li>
-        <li><strong>Suscripción</strong> ya 25-30% de la base activa → 8-12k€/mes predecibles recurrentes.</li>
-        <li><strong>Lanzamiento SKU 2 — Bisgli + Colágeno</strong>. Territorio Ana Maria Lajusticia (70.520 vol/mes). Captura cluster sin canibalizar bisgli puro.</li>
-        <li><strong>Lanzamiento SKU 3 — Bisgli en Polvo</strong>. Cluster formato (4.790 vol/mes). PDP independiente.</li>
-        <li><strong>Lanzamiento SKU 4 — Magnesio Complex</strong> (Bisgli+Citrato+Malato). Captura intent "tipos de magnesio" + "magnesio complex" (5.400 + 4.400 vol).</li>
-        <li><strong>Programa referido</strong> activado (Friendbuy o Refersion).</li>
-        <li><strong>Influencer batch</strong>: 5-10 micro-influencers de salud, fitness, menopausia, dormir mejor.</li>
-      </ul>
+    <div class="ag-card">
+      <span class="ag-name">CAMPAÑA 03 — COMPETITOR HIJACK</span>
+      <span class="ag-meta">3 Ad Groups · 55 KW · ~43k vol/mes · landing comparativa</span>
+      <p class="ag-desc">Captura tráfico que busca competidores con landing de comparativa, no a la PDP genérica. Quality Score más bajo (KW de marca ajena), bids 1,4-1,5× mercado.</p>
+      <div class="ag-kw-sample">"ana maria lajusticia magnesio" · "aquilea magnesio bisglicinato" · "solgar magnesio"</div>
     </div>
 
-    <div class="phase-card">
-      <span class="phase-num">FASE 4 — Escalar a 100k</span>
-      <h3>El mix multicanal hace el trabajo.</h3>
-      <p class="phase-target">Mes 18-24 · Target revenue: 100k€/mes</p>
-      <h4>Distribución del revenue mes 24</h4>
-      <ul>
-        <li><strong>Google Ads + Meta Ads</strong>: 25-35k€/mes con ROAS 1,8-2,0×</li>
-        <li><strong>Email + SMS lifecycle</strong>: 20-25k€/mes</li>
-        <li><strong>Suscripción recurring</strong>: 15-25k€/mes predecible</li>
-        <li><strong>SEO orgánico</strong>: 15-20k€/mes</li>
-        <li><strong>Repeat orgánico + boca-oreja + referral</strong>: 10-15k€/mes</li>
-        <li><strong>Total</strong>: 100-115k€/mes con base activa de 15-20k clientes</li>
-      </ul>
+    <div class="ag-card">
+      <span class="ag-name">CAMPAÑA 04 — COMPARATIVA TIPOS</span>
+      <span class="ag-meta">3 Ad Groups · 60 KW · ~29k vol/mes · landing comparativa</span>
+      <p class="ag-desc">Capta el cluster "bisgli vs citrato/malato/treonato" y "tipos de magnesio". Tráfico high-intent decidiendo qué tipo comprar. Landing dedicada con tabla comparativa.</p>
+      <div class="ag-kw-sample">"bisglicinato o citrato de magnesio" · "tipos de magnesio" · "diferencia citrato bisglicinato"</div>
     </div>
+
+    <div class="ag-card">
+      <span class="ag-name">CAMPAÑA 05 — DOLORES</span>
+      <span class="ag-meta">5 Ad Groups · 80 KW · ~31k vol/mes · tCPA 15€</span>
+      <p class="ag-desc">Ad Groups por casuística: dormir, ansiedad/estrés, fatiga, calambres, menopausia. Cada uno con landing/PDP con copy adaptado al dolor concreto.</p>
+      <div class="ag-kw-sample">"magnesio para dormir" · "magnesio para la ansiedad" · "magnesio calambres" · "magnesio menopausia"</div>
+    </div>
+
+    <div class="ag-card">
+      <span class="ag-name">CAMPAÑA 06 — COLÁGENO HIJACK</span>
+      <span class="ag-meta">1 Ad Group · 20 KW · ~41k vol/mes · landing educacional</span>
+      <p class="ag-desc">Atacar el cluster colágeno+magnesio (territorio Lajusticia) con landing tipo "El magnesio en los colágenos típicos es carbonato — bisglicinato absorbe 4× más". Tráfico cold-comparativo.</p>
+      <div class="ag-kw-sample">"colageno con magnesio" · "colageno y magnesio para que sirve"</div>
+    </div>
+
+    <h3>Performance Max + Shopping</h3>
+    <p>Una vez la Search consolidada (mes 2-3), añadir <strong>Performance Max con feed Merchant Center enriquecido</strong> y signals de audiencia (purchasers Meta, lookalike de buyers existentes). PMax bien alimentado puede sumar 20-30% de revenue Ads incremental sobre Search, con ROAS típicamente 0,3-0,5× por debajo del de Search.</p>
+
+    <h3>Negative keywords (104 a nivel cuenta)</h3>
+    <p>Filtrado pre-cargado por categoría de intent inadecuado:</p>
+    <ul>
+      <li><strong>Investigación química/escolar:</strong> wikipedia, química, estructura, molecular, peso atómico, tabla periódica, pdf, tesis</li>
+      <li><strong>Otros usos del magnesio metal:</strong> soldadura, aleación, fundición, polvo escalada, encender fuego, supervivencia</li>
+      <li><strong>Jardín y agricultura:</strong> sulfato magnesio plantas, fertilizante, abono, cultivo</li>
+      <li><strong>Veterinaria y animales:</strong> perro, gato, caballo, mascota, veterinaria</li>
+      <li><strong>Medicamentos no relacionados:</strong> magnogene, magnesia san pellegrino, leche magnesia, intravenoso</li>
+      <li><strong>Síntomas médicos serios:</strong> intoxicación, sobredosis, eclampsia, convulsiones, hospital</li>
+    </ul>
+
+    <h3>Tracking pre-launch (no negociable)</h3>
+    <p>Antes del primer euro en Ads:</p>
+    <ul>
+      <li><strong>GA4</strong> con conversiones <span class="mono">purchase</span> con value y currency</li>
+      <li><strong>Google Ads conversion linker</strong> + <strong>Enhanced Conversions for Web</strong> activado</li>
+      <li><strong>Consent Mode v2</strong>: Built-in granted/denied + CMv2 (sin Additional Consent IAB)</li>
+      <li><strong>Merchant Center</strong> sincronizado con Shopify, feed con títulos optimizados (KW + dosis + cantidad)</li>
+      <li><strong>Validación end-to-end</strong> con Tag Assistant y GA4 DebugView antes de activar campañas</li>
+    </ul>
   </div>
 </section>
 
-<!-- KPIs -->
-<section class="section" id="kpis">
+<!-- SEO -->
+<section class="section" id="seo">
   <div class="container">
-    <span class="section-num">06 — Validación</span>
-    <h2>KPIs por fase.<br><em>Cuándo escalar y cuándo frenar.</em></h2>
-    <p class="lead">Métricas que deben cumplirse para autorizar escalado a la siguiente fase. Si alguna se queda 30% por debajo del target, pausar adquisición y atacar esa palanca.</p>
+    <span class="section-num">05 — Plan SEO</span>
+    <h2>Pillar y <em>clusters</em>.</h2>
+    <p class="lead">El SEO es donde está el compounding. 1 pillar pesado y 5 clusters de blog que capturan en conjunto ~50k búsquedas/mes con KD medios entre 8 y 25.</p>
 
+    <div class="callout gold">
+      <span class="callout-label">★ La oportunidad SEO #1 del plan</span>
+      <h4>Cluster "Bisglicinato vs Citrato de Magnesio".</h4>
+      <p>4.360 búsquedas/mes con KD medio <strong>8,9</strong>. KD ridículo para un cluster con intent caliente: el usuario ya decidió comprar magnesio, está eligiendo qué tipo. Una pieza de 2.500 palabras con tabla comparativa, schema FAQPage y CTA al producto. Trabajo: 1-2 días de redacción + maqueta. Resultado esperado: top 5 en 3-4 meses, 1.500-3.000 visitas/mes orgánicas.</p>
+    </div>
+
+    <h3>Pillar principal</h3>
+    <div class="ag-card">
+      <span class="ag-name">/blog/magnesio-bisglicinato-para-que-sirve/</span>
+      <span class="ag-meta">15.790 vol/mes cluster · KD 11,1 · 2.500-3.500 palabras</span>
+      <p class="ag-desc">Pieza definitiva sobre bisglicinato. Cubre qué es, beneficios por casuística (8 sub-secciones con H3), dosis, contraindicaciones, comparativa con otros tipos, criterios para elegir buen bisglicinato. Schema Article + FAQPage. Internal links a los 5 clusters siguientes.</p>
+      <div class="ag-kw-sample">"bisglicinato de magnesio para que sirve" · "magnesio bisglicinato propiedades" · "bisglicinato beneficios"</div>
+    </div>
+
+    <h3>Los 5 clusters</h3>
+
+    <div class="ag-card">
+      <span class="ag-name">CLUSTER 01 · /blog/bisglicinato-vs-citrato-magnesio/</span>
+      <span class="ag-meta">4.360 vol/mes · KD 8,9 · 1.800-2.500 palabras</span>
+      <p class="ag-desc">Comparativa formal. Tabla rápida above-the-fold. Casuística clara (sueño/ansiedad/deporte → bisgli; tránsito → citrato). Conclusión sin ambigüedad. Tono objetivo, no promocional.</p>
+    </div>
+
+    <div class="ag-card">
+      <span class="ag-name">CLUSTER 02 · /blog/magnesio-para-dormir/</span>
+      <span class="ag-meta">22.480 vol/mes cluster · KD 17 · 2.000-2.800 palabras</span>
+      <p class="ag-desc">Por qué el magnesio mejora el sueño, qué tipo elegir (bisgli > citrato para dormir), dosis ideal, combinaciones potenciadoras (B6, taurina, glicina, L-teanina). Estudios linkados.</p>
+    </div>
+
+    <div class="ag-card">
+      <span class="ag-name">CLUSTER 03 · /blog/dosis-magnesio-bisglicinato/</span>
+      <span class="ag-meta">1.050 vol/mes cluster · KD 7,8 · 1.500-2.000 palabras</span>
+      <p class="ag-desc">RDI vs dosis terapéutica. Dosis por objetivo (sueño, ansiedad, deporte, menopausia, migrañas). Dosis por edad. KD ridículamente bajo para volumen útil.</p>
+    </div>
+
+    <div class="ag-card">
+      <span class="ag-name">CLUSTER 04 · /blog/efectos-secundarios-bisglicinato-magnesio/</span>
+      <span class="ag-meta">1.810 vol/mes cluster · KD 18 · 1.500-2.000 palabras</span>
+      <p class="ag-desc">Spoiler — es la forma más segura. Pero hay 3 contraindicaciones reales (insuficiencia renal, bloqueo AV, miastenia). Resuelve la objeción de compra más fuerte. Tono casi médico.</p>
+    </div>
+
+    <div class="ag-card">
+      <span class="ag-name">CLUSTER 05 · /blog/sintomas-deficit-magnesio/</span>
+      <span class="ag-meta">5.230 vol/mes cluster · KD ~18 · 1.800-2.500 palabras</span>
+      <p class="ag-desc">12 síntomas más comunes (calambres, fatiga, insomnio, ansiedad, etc.). Causas. Test casero. Cómo medirlo en analítica. Cómo revertirlo. Internal links a todos los clusters anteriores.</p>
+    </div>
+
+    <h3>Calendario de publicación sugerido</h3>
     <table class="data-table">
       <thead>
-        <tr>
-          <th>KPI</th>
-          <th class="num">Fin F1 (m3)</th>
-          <th class="num">Fin F2 (m9)</th>
-          <th class="num">Fin F3 (m18)</th>
-        </tr>
+        <tr><th>Semana</th><th>Contenido</th><th class="num">Vol cluster</th></tr>
       </thead>
       <tbody>
-        <tr><td>Revenue/mes</td><td class="num">18k€</td><td class="num">40k€</td><td class="num">70k€</td></tr>
-        <tr><td>% revenue email/SMS</td><td class="num">8%</td><td class="num">15%</td><td class="num">22%</td></tr>
-        <tr><td>% pedidos con sub activa</td><td class="num">8%</td><td class="num">18%</td><td class="num">30%</td></tr>
-        <tr><td>AOV</td><td class="num">55€</td><td class="num">60€</td><td class="num">65€</td></tr>
-        <tr><td>CR sesión → purchase</td><td class="num">3,0%</td><td class="num">3,5%</td><td class="num">4,0%</td></tr>
-        <tr><td>ROAS Google Ads</td><td class="num">1,8</td><td class="num">2,0</td><td class="num">2,0</td></tr>
-        <tr><td>Lista email activa</td><td class="num">2.500</td><td class="num">8.000</td><td class="num">18.000</td></tr>
-        <tr><td>Tráfico SEO/mes (sesiones)</td><td class="num">500</td><td class="num">5.000</td><td class="num">25.000</td></tr>
-        <tr><td>Reseñas nuevas/mes</td><td class="num">30+</td><td class="num">50+</td><td class="num">80+</td></tr>
+        <tr><td>1-2</td><td>Pillar bisglicinato para qué sirve</td><td class="num">15.790</td></tr>
+        <tr><td>3-4</td><td>Cluster bisglicinato vs citrato</td><td class="num">4.360</td></tr>
+        <tr><td>5-6</td><td>Cluster magnesio para dormir</td><td class="num">22.480</td></tr>
+        <tr><td>7-8</td><td>Cluster dosis bisglicinato</td><td class="num">1.050</td></tr>
+        <tr><td>9-10</td><td>Cluster efectos secundarios</td><td class="num">1.810</td></tr>
+        <tr><td>11-12</td><td>Cluster déficit de magnesio</td><td class="num">5.230</td></tr>
       </tbody>
     </table>
+
+    <h3>Linkbuilding básico paralelo</h3>
+    <ul>
+      <li>3-5 menciones en blogs de salud/nutrición/fitness ES (Vitónica, Mejor con Salud, Cuídate Plus)</li>
+      <li>Guest posts con autor identificable (E-E-A-T)</li>
+      <li>1 entrevista a fundador en podcast de bienestar</li>
+      <li>Schema Author + Brand Organization en todos los artículos</li>
+    </ul>
 
     <div class="callout">
-      <span class="callout-label">Regla del consultor</span>
-      <h4>No se escala el acelerador si la máquina de retención no está en orden.</h4>
-      <p>Si en mes 3 el % de revenue por email es del 4% en lugar del 8%, no se aumenta el budget de Google Ads. Se ataca primero la implementación de Klaviyo. Subir adquisición sobre una base de retención rota es quemar dinero.</p>
+      <span class="callout-label">Horizonte SEO</span>
+      <h4>Tracción a 4-6 meses, compounding desde mes 6.</h4>
+      <p>Con publicación disciplinada (1 pieza cada 2 semanas) y linkbuilding básico, la tracción real arranca al mes 4-6. A partir de ahí el SEO es el canal con mejor LTV blended del plan: tráfico gratis + CR similar a Ads + cero coste marginal por impresión adicional.</p>
     </div>
   </div>
 </section>
 
-<!-- KW PRIORITARIAS -->
-<section class="section" id="kw-priority">
+<!-- KW IMPORTANTES -->
+<section class="section" id="kw">
   <div class="container">
-    <span class="section-num">07 — Keywords</span>
-    <h2>Las KW <em>que importan</em>.</h2>
-    <p class="lead">Las top picks por canal. Selección basada en intent, volumen, KD y rentabilidad real esperada.</p>
+    <span class="section-num">06 — Keywords</span>
+    <h2>Las <em>top picks</em>.</h2>
+    <p class="lead">Selección por intent, volumen y rentabilidad real esperada. Lista corta — el master sheet completo (12.167 KW) está en el repo.</p>
 
-    <h3>Para Google Ads — KW transaccionales puras</h3>
+    <h3>Para Google Ads — KW comerciales prioritarias</h3>
     <table class="data-table">
       <thead>
         <tr>
           <th>Keyword</th>
           <th class="num">Vol/mes</th>
-          <th class="num">CPC</th>
-          <th>Intent</th>
+          <th class="num">CPC SEMrush</th>
+          <th>Ad Group</th>
         </tr>
       </thead>
       <tbody>
-        <tr><td class="kw">bisglicinato de magnesio</td><td class="num">40.500</td><td class="num">0,16€</td><td>Informational + Comercial</td></tr>
-        <tr><td class="kw">magnesio bisglicinato</td><td class="num">27.100</td><td class="num">0,16€</td><td>Informational + Comercial</td></tr>
-        <tr><td class="kw">comprar bisglicinato de magnesio</td><td class="num">390</td><td class="num">0,24€</td><td>Transactional</td></tr>
-        <tr><td class="kw">bisglicinato de magnesio precio</td><td class="num">110</td><td class="num">0,12€</td><td>Transactional</td></tr>
-        <tr><td class="kw">comprar magnesio bisglicinato</td><td class="num">140</td><td class="num">0,41€</td><td>Commercial</td></tr>
-        <tr><td class="kw">mejor bisglicinato de magnesio</td><td class="num">390</td><td class="num">0,21€</td><td>Comparative</td></tr>
+        <tr><td class="kw">bisglicinato de magnesio</td><td class="num">40.500</td><td class="num">0,16€</td><td>AG02 BISGLI GENERICO</td></tr>
+        <tr><td class="kw">magnesio bisglicinato</td><td class="num">27.100</td><td class="num">0,16€</td><td>AG02 BISGLI GENERICO</td></tr>
+        <tr><td class="kw">comprar bisglicinato de magnesio</td><td class="num">390</td><td class="num">0,24€</td><td>AG03 TRANSACCIONAL</td></tr>
+        <tr><td class="kw">mejor bisglicinato de magnesio</td><td class="num">390</td><td class="num">0,21€</td><td>AG04 OPINIONES MEJOR</td></tr>
+        <tr><td class="kw">bisglicinato de magnesio opiniones</td><td class="num">880</td><td class="num">0,11€</td><td>AG04 OPINIONES MEJOR</td></tr>
+        <tr><td class="kw">bisglicinato de magnesio dosis diaria</td><td class="num">390</td><td class="num">0,16€</td><td>AG06 DOSIS</td></tr>
+        <tr><td class="kw">bisglicinato de magnesio para dormir</td><td class="num">1.000</td><td class="num">0,11€</td><td>AG14 DORMIR</td></tr>
+        <tr><td class="kw">magnesio bisglicinato + b6</td><td class="num">140</td><td class="num">0,22€</td><td>AG07 CON B6</td></tr>
       </tbody>
     </table>
 
-    <h3>Para Competitor Hijack en Ads</h3>
+    <h3>Para Competitor Hijack</h3>
     <table class="data-table">
       <thead>
         <tr>
           <th>Keyword</th>
           <th class="num">Vol/mes</th>
           <th class="num">CPC</th>
-          <th>Marca atacada</th>
+          <th>Competidor atacado</th>
         </tr>
       </thead>
       <tbody>
@@ -807,7 +727,7 @@
       </tbody>
     </table>
 
-    <h3>Para SEO — Pillar y clusters de blog</h3>
+    <h3>Para SEO — Pillar y clusters</h3>
     <table class="data-table">
       <thead>
         <tr>
@@ -819,20 +739,50 @@
       </thead>
       <tbody>
         <tr><td class="kw">bisglicinato de magnesio para que sirve</td><td class="num">6.600</td><td class="num">20</td><td>Pillar</td></tr>
-        <tr><td class="kw">bisglicinato o citrato de magnesio</td><td class="num">390</td><td class="num">8</td><td><span class="check">★ Cluster vs citrato — KD ridículo</span></td></tr>
+        <tr style="background: var(--accent-soft);"><td class="kw"><strong>bisglicinato o citrato de magnesio</strong></td><td class="num">390</td><td class="num">8</td><td><span class="check">★ La joya del SEO</span></td></tr>
         <tr><td class="kw">magnesio para dormir</td><td class="num">9.900</td><td class="num">17</td><td>Cluster dormir</td></tr>
-        <tr><td class="kw">para qué sirve el magnesio</td><td class="num">6.600</td><td class="num">31</td><td>Pillar magnesio</td></tr>
         <tr><td class="kw">tipos de magnesio</td><td class="num">5.400</td><td class="num">13</td><td>Cluster comparativo</td></tr>
-        <tr><td class="kw">bisglicinato de magnesio dosis diaria</td><td class="num">390</td><td class="num">9</td><td>Cluster dosis</td></tr>
-        <tr><td class="kw">bisglicinato de magnesio efectos secundarios</td><td class="num">210</td><td class="num">17</td><td>Cluster seguridad</td></tr>
+        <tr><td class="kw">para qué sirve el magnesio</td><td class="num">6.600</td><td class="num">31</td><td>Pillar magnesio</td></tr>
         <tr><td class="kw">deficit de magnesio sintomas</td><td class="num">~5.230</td><td class="num">~18</td><td>Cluster síntomas</td></tr>
+        <tr><td class="kw">bisglicinato de magnesio efectos secundarios</td><td class="num">210</td><td class="num">17</td><td>Cluster seguridad</td></tr>
+        <tr><td class="kw">bisglicinato de magnesio dosis diaria</td><td class="num">390</td><td class="num">9</td><td>Cluster dosis</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- KPIs -->
+<section class="section" id="kpis">
+  <div class="container">
+    <span class="section-num">07 — Validación</span>
+    <h2>KPIs <em>SEO + Ads</em>.</h2>
+    <p class="lead">Métricas semanales/mensuales que validan que el plan está vivo. Si alguna se desvía 30%, pausar escalado y atacar la palanca específica.</p>
+
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>KPI</th>
+          <th class="num">Mes 3</th>
+          <th class="num">Mes 6</th>
+          <th class="num">Mes 12</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Spend Google Ads/mes</td><td class="num">2-3k€</td><td class="num">5-7k€</td><td class="num">10-15k€</td></tr>
+        <tr><td>ROAS Google Ads</td><td class="num">1,8</td><td class="num">2,0</td><td class="num">2,0</td></tr>
+        <tr><td>Revenue Google Ads/mes</td><td class="num">5k€</td><td class="num">12k€</td><td class="num">25-30k€</td></tr>
+        <tr><td>CR Search → purchase</td><td class="num">2,5%</td><td class="num">3,0%</td><td class="num">3,5%</td></tr>
+        <tr><td>Quality Score medio</td><td class="num">5+</td><td class="num">7+</td><td class="num">8+</td></tr>
+        <tr><td>Tráfico SEO/mes (sesiones)</td><td class="num">500</td><td class="num">5.000</td><td class="num">25.000</td></tr>
+        <tr><td>KW posicionadas top 10</td><td class="num">10+</td><td class="num">50+</td><td class="num">200+</td></tr>
+        <tr><td>Revenue SEO orgánico/mes</td><td class="num">~0</td><td class="num">3-5k€</td><td class="num">15-20k€</td></tr>
       </tbody>
     </table>
 
-    <div class="callout gold">
-      <span class="callout-label">★ La oportunidad SEO #1</span>
-      <h4>Cluster "bisglicinato vs citrato/malato/treonato"</h4>
-      <p>4.360 búsquedas/mes con KD medio 8,9. Una pieza de 2.500 palabras con tabla comparativa, schema FAQ y CTA al producto. Trabajo: 1-2 días de redacción + maqueta. Resultado esperado: top 5 en 3-4 meses, 1.500-3.000 visitas/mes orgánicas a un usuario decidiendo qué tipo comprar (intent caliente).</p>
+    <div class="callout">
+      <span class="callout-label">Regla operativa</span>
+      <h4>No se sube budget Ads si el ROAS está bajo target.</h4>
+      <p>Si en mes 6 el ROAS Google Ads está en 1,5 en lugar de 2,0, no se aumenta spend. Se ataca: tracking (Enhanced Conversions, server-side), Quality Score (relevancia copy + landing), KW negativas adicionales, ajuste de match types. Subir budget sobre una campaña no rentable es quemar dinero.</p>
     </div>
   </div>
 </section>
@@ -842,31 +792,31 @@
   <div class="container">
     <span class="section-num">08 — Riesgos</span>
     <h2>Lo que puede <em>salir mal</em>.</h2>
-    <p class="lead">Honestidad operacional. Tres riesgos materiales del plan y cómo mitigarlos antes de que pasen.</p>
+    <p class="lead">Tres riesgos materiales del plan SEO + Ads y cómo mitigarlos antes de que pasen.</p>
 
     <div class="callout alert">
-      <span class="callout-label">Riesgo #1 · El más grave</span>
+      <span class="callout-label">Riesgo #1 · El más caro</span>
       <h4>El margen real es menor del 50% asumido.</h4>
-      <p>Si el margen bruto del bisglicinato es 40% en lugar de 50%, el ROAS 2 ya es pérdida. El CPA tope baja de 22,93€ a 18,34€ y el espacio operativo se cierra. Mitigación: <strong>antes de mes 2 confirmar el margen real con coste de fabricación + envío + payment fees + IVA + customer service</strong>. Si margen real &lt;45%, recalibrar plan y considerar subir precio del bote a 39€.</p>
+      <p>Si el margen bruto del bisglicinato es 40% en lugar de 50%, el ROAS 2 ya es pérdida. El CPA tope baja de 22,93€ a 18,34€ y el espacio operativo se cierra. Mitigación: <strong>antes del mes 2 confirmar el margen real</strong> con coste de fabricación + envío + payment fees + IVA + customer service. Si margen real &lt;45%, recalibrar plan y considerar subir bid floors o subir precio.</p>
     </div>
 
     <div class="callout alert">
-      <span class="callout-label">Riesgo #2 · Ejecución web</span>
-      <h4>La nueva web se retrasa más de 60 días.</h4>
-      <p>Sin la nueva PDP con suscripción + bundle + comparativa + FAQ schema, los resultados de Klaviyo y Ads son peores. Mitigación: <strong>activar Subscriptions y Bundle en la web actual aunque sea con UX provisional</strong>. No esperar al rediseño para empezar a recoger fruta de retención.</p>
+      <span class="callout-label">Riesgo #2 · Tracking</span>
+      <h4>Conversiones GA4 → Google Ads pierden datos por consent.</h4>
+      <p>Sin Consent Mode v2 bien configurado, en España se pierde el 30-50% de conversiones reportadas a Google Ads. La cuenta no aprende, los algoritmos se desentrenan, el ROAS cae. Mitigación: validar Consent Mode v2 con la herramienta de inspección de Chrome ANTES del primer euro en Ads. Validar Enhanced Conversions activado.</p>
     </div>
 
     <div class="callout alert">
-      <span class="callout-label">Riesgo #3 · Saturación Meta antes de tiempo</span>
-      <h4>Meta Ads que ya factura 10-20k empieza a perder eficiencia.</h4>
-      <p>Pasados 12-18 meses con la misma cuenta, los catálogos de creativos y audiencias se desgastan. Mitigación: <strong>renovación trimestral de creativos UGC con micro-influencers</strong> (5-10 vídeos cortos/trimestre), refresh de copys y advantage+ audiences ampliadas con segmentos de salud/fitness/menopausia.</p>
+      <span class="callout-label">Riesgo #3 · SEO</span>
+      <h4>El blog se publica con disciplina los primeros 3 meses y luego se abandona.</h4>
+      <p>El compounding del SEO depende del ritmo sostenido. Publicar 6 piezas y parar 4 meses es peor que publicar 1 al mes durante 12 meses. Mitigación: contratar redactor especializado en suplementación / nutrición o agencia con SLA mensual de 1-2 piezas, no depender de "cuando hay tiempo".</p>
     </div>
 
     <h3>Lo que NO es un riesgo material</h3>
     <ul>
-      <li><strong>Saturación del inventario de búsqueda.</strong> 1,4M vol/mes en universo magnesio. Hay tráfico abundante.</li>
-      <li><strong>Competencia por el bisglicinato puro.</strong> El cluster está abierto, KD bajos, CPCs ridículos.</li>
-      <li><strong>Capacidad de Shopify para crecer.</strong> La plataforma soporta este volumen sin fricción.</li>
+      <li><strong>Saturación del inventario de búsqueda.</strong> 1,4M vol/mes ofrece margen sobrado.</li>
+      <li><strong>Competencia por el bisglicinato puro.</strong> KD bajos en cluster informational, CPCs ridículos.</li>
+      <li><strong>Capacidad técnica de Shopify para SEO.</strong> Plataforma estándar, no plantea problemas.</li>
     </ul>
   </div>
 </section>
@@ -876,69 +826,30 @@
   <div class="container">
     <span class="section-num">09 — Acción</span>
     <h2>Próximos pasos.<br><em>Esta semana.</em></h2>
-    <p class="lead">Siete acciones concretas que arrancan FASE 1. Sin ellas, el plan no avanza.</p>
+    <p class="lead">Cinco acciones concretas que ponen en marcha el plan. Todo lo demás depende de estas.</p>
 
-    <div class="timeline">
-      <div class="timeline-item">
-        <span class="meta">01 · Cliente · Día 1</span>
-        <h5>Decidir y contratar Klaviyo</h5>
-        <p>Plan Free hasta 250 contactos, Email plan según tamaño de lista actual. Si la lista existente está en otro CRM (Mailchimp, Shopify Email), preparar export para migración.</p>
-      </div>
-      <div class="timeline-item">
-        <span class="meta">02 · Cliente · Día 2</span>
-        <h5>Activar Shopify Subscriptions o Recharge</h5>
-        <p>Configurar plan –10% mensual con envío gratis. CTA visible junto al precio. Política de cancelación clara.</p>
-      </div>
-      <div class="timeline-item">
-        <span class="meta">03 · Cliente · Día 3</span>
-        <h5>Crear Bundle 3 botes en Shopify</h5>
-        <p>Bundle "1 año de tratamiento" con descuento del 15%. Precio total ~89€. Hero del bundle: "Asegura un año, ahorra 16€".</p>
-      </div>
-      <div class="timeline-item">
-        <span class="meta">04 · Josep Cid · Día 3-5</span>
-        <h5>Auditar tracking actual</h5>
-        <p>Revisar Customer Events de Shopify, GA4 stream, Meta Pixel + CAPI, Google Ads conversions, Consent Mode v2, schema.org de Judge.me. Documento de gaps con orden de implementación.</p>
-      </div>
-      <div class="timeline-item">
-        <span class="meta">05 · Josep Cid · Día 4</span>
-        <h5>Validar AggregateRating con Rich Results Test</h5>
-        <p>Confirmar que las stars de Judge.me se inyectan correctamente y aparecerán en SERP. Si no, abrir ticket técnico para resolver antes del lanzamiento de la nueva web.</p>
-      </div>
-      <div class="timeline-item">
-        <span class="meta">06 · Cliente · Día 5</span>
-        <h5>Pasar el brief de PDP al equipo de diseño</h5>
-        <p>Los 15 must-haves + 15 FAQs deben incorporarse al rediseño antes del lanzamiento. Es la ventana perfecta para no tener que retrabajar después.</p>
-      </div>
-      <div class="timeline-item">
-        <span class="meta">07 · Cliente · Día 7</span>
-        <h5>Crear cuenta Google Ads + Merchant Center</h5>
-        <p>Cuenta Google Ads + verificación de dominio + sincronización del feed con Shopify. Cuando esté lista, importación de los 6 CSVs preparados (340 KW, 19 Ad Groups, 361 RSAs validadas).</p>
-      </div>
-    </div>
+    <ol style="list-style: decimal; padding-left: 24px;">
+      <li style="padding: 14px 0; padding-left: 8px;"><strong>Crear cuenta Google Ads + Merchant Center.</strong> Verificación de dominio en Shopify, sincronización de feed con la app oficial Google & YouTube.</li>
+      <li style="padding: 14px 0; padding-left: 8px;"><strong>Auditar tracking actual.</strong> GA4, Google Ads conversions, Consent Mode v2, AggregateRating schema (Judge.me). Documento de gaps con orden de implementación.</li>
+      <li style="padding: 14px 0; padding-left: 8px;"><strong>Importar la cuenta Google Ads desde los 6 CSVs preparados</strong>: keywords, RSAs, negatives, sitelinks, callouts, snippets. Validación de Final URLs, asociación de extensiones.</li>
+      <li style="padding: 14px 0; padding-left: 8px;"><strong>Lanzar el primer artículo SEO</strong> (pillar bisglicinato). Setear el ritmo de 1 artículo cada 2 semanas con redactor o agencia.</li>
+      <li style="padding: 14px 0; padding-left: 8px;"><strong>Activar campaña Brand Defense + Bisgli Core</strong> con budget 50€/día. Resto de campañas se activan tras 14-21 días de validación de tracking y CR.</li>
+    </ol>
 
-    <div class="callout green">
-      <span class="callout-label">Cuando estos 7 puntos estén cerrados</span>
-      <h4>Se inicia FASE 1 oficialmente.</h4>
-      <p>Y el plan empieza a generar revenue incremental sobre la base de Meta Ads existente desde el mes 1. La aceleración real llega en mes 3-4 cuando los flujos de Klaviyo están maduros y la suscripción tiene tracción.</p>
-    </div>
-
-    <h3>Pregunta abierta para el cliente</h3>
-    <p><strong>¿Es asumible un horizonte de 18-24 meses para llegar a 100k€/mes con esta tesis?</strong></p>
-    <p>Si la respuesta es no y el horizonte real es más agresivo, las palancas que pueden comprimir el calendario son:</p>
+    <h3>Lo que necesito del cliente para arrancar</h3>
     <ul>
-      <li><strong>Inversión paralela en marca</strong> (PR, podcasts, creator partnerships) para acelerar el orgánico.</li>
-      <li><strong>Lanzamiento agresivo de SKU 2 desde mes 4</strong>, no mes 10.</li>
-      <li><strong>Hire dedicado de email/lifecycle</strong> para que los flujos de Klaviyo sean sofisticados desde día 1.</li>
-      <li><strong>Adquisición externa</strong>: comprar una marca o audiencia complementaria en el mismo vertical.</li>
+      <li>Margen unitario real del bisglicinato (para calibrar CPA tope verdadero)</li>
+      <li>Acceso lectura a Shopify admin (Customer Events) y GA4</li>
+      <li>Confirmación de fecha de lanzamiento de la nueva web</li>
+      <li>Decisión sobre quién opera la cuenta Google Ads (interno / agency / yo)</li>
     </ul>
-    <p>Sin esas palancas adicionales, el calendario de 18-24 meses es la línea base sostenible con techo ROAS 2.</p>
   </div>
 </section>
 
 <footer>
   <div class="container">
-    <h3>Plan estratégico Celsanatur · v1.0</h3>
-    <p>12.167 keywords analizadas · 19 Ad Groups Google Ads listos · 6 briefs SEO redactados · 15 must-haves de PDP · plan de tracking GA4 + Google Ads + Meta CAPI + Consent Mode v2.</p>
+    <h3>Plan SEO + Google Ads · Celsanatur · v2</h3>
+    <p>12.167 keywords analizadas · 19 Ad Groups Google Ads listos para Editor · 6 briefs SEO · plan de tracking · 104 negative keywords · RSAs validadas dentro de límite chars.</p>
     <p>Documento entregable confidencial. Compartir solo con el equipo del cliente.</p>
     <div class="signature">Josep Cid · JOSEP CID LLC · Abril 2026</div>
   </div>
